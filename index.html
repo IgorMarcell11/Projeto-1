@@ -6,27 +6,56 @@
     </head>
 
     <body>
-        <!-- Elemento de Topo -->
+        <!-- Cabeçalho -->
         <header>
             <img src="img/logo-nav.png">
         </header>
+        <!--FIM CABEÇALHO-->
 
         <div id="content">
             <div id="Formulario">
+                <p class="titulo">Insira seu nome e selecione a sua cidade</p>
+
+                <form action="" method="post">
+                    <div class="item_formulario">
+                        <label for="nome" class="form_label">Nome</label>
+                        <input id="nome" type="text" name="name" placeholder="Ex. Igor Passos"/>
+                    </div>
+                    <br>
+                    <div class="item_formulario">
+                        <label for="escolha_cidade" class="form_label">Cidade</label>
+                        <select name="cidade" id="escolha_cidade">
+                            <option value="" disabled selected>Escolha a Cidade</option>
+                            <option value="Barreiras">Barreiras</option>
+                            <option value="Eunápolis">Eunápolis</option>
+                            <option value="Feira de Santana">Feira de Santana</option>
+                            <option value="Ilhéus">Ilhéus</option>
+                            <option value="Itabuna">Itabuna</option>
+                            <option value="Jequié">Jequié</option>
+                            <option value="Juazeiro">Juazeiro</option>
+                            <option value="Salvador">Salvador</option>
+                            <option value="Vitória da Conquista">Vitória da Conquista</option>
+                        </select>
+                    </div>
+                    <br>
+                    <div class="item_formulario">
+                        <button type="submit" id="submitbtn" >Confirmar</button>
+
+                    </div>
+                </form>
 
             </div>
 
             <div id="boasvindas">
+                <h2 id="texto_boasvindas"></h2>
 
             </div>
 
             <div id="previsao">
+                <h4 id="texto_previsao"></h4>
 
             </div>
     
-
-
-
         </div>
 
 
@@ -34,6 +63,8 @@
         <div id="footer">
             <h6>Todos os direitos reservados para ResTIC36</h6>
         </div>
+
+        <script src="js/script.js"></script>
 
     </body>
 
