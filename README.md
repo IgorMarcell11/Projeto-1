@@ -1,7 +1,7 @@
 # Projeto-1
 Projeto 1 - Referente a 3ª semana da trilha Desenvolvimento Fullstack da ResTIC36
 
-INCOMPLETO
+***INCOMPLETO***
 
 ## Descrição do Projeto
 A partir da cidade selecionada pelo usuário, a página retorna a previsão do tempo na para a semana corrente.
